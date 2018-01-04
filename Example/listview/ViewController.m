@@ -50,7 +50,7 @@
      @"  -ios-constraints: top 10 titleLabel bottom,left 15,right -15,bottom -15;"
      @"}"
      @".textAndImage label.title {"
-     @"  -ios-constraints: top 15,left 15,right -105;"
+     @"  -ios-constraints: top 15,left 15,right -15;"
      @"}"
      @".textAndImage button {"
      @"  font-size: 40px;"
@@ -64,17 +64,23 @@
      ];
     [self.listView loadData:
      @{@"data":@[@{
-                     @"id":@"-26785257723740608",
+                     @"id":@"111",
                      @"title":@"中央军委举行2018年开训动员大会 习近平向全军发布训令",
                      @"desc":@"央视网消息（新闻联播）：新年伊始，万象更新，全军上下厉兵秣马，练兵正当时。3日上午，中央军委隆重举行2018年开训动员大会，中共中央总书记、国家主席、中央军委主席习近平向全军发布训令，号召全军贯彻落实党的十九大精神和新时代党的强军思想，全面加强实战化军事训练，全面提高打赢能力。",
                      @"imageurl":@"http://p1.img.cctvpic.com/photoworkspace/contentimg/2018/01/03/2018010319561342847.jpg",
                      @"type":@"textAndImage"
                      },@{
-                     @"id":@"3225597549876445471",
+                     @"id":@"222",
                      @"title":@"80米长巨型雪雕亮相长春",
                      @"desc":@"1月4日，长春净月潭内，一座巨型雪雕吸引众多游人。这座巨型雪雕取名为“龙腾盛世”，80米长、20米宽、30米高，总用雪量3.5万立方米。整体造型以巨龙为主体，背景配以蜿蜒的长城。",
                      @"imageurl":@"http://01.imgmini.eastday.com/mobile/20180104/20180104140229_423e8f744beb1a11d50a216b64cb398b_1.jpeg",
-                     @"type":@"textAndImage"}
+                     @"type":@"textAndImage"
+                     },@{
+                     @"id":@"333",
+                     @"title":@"中央军委举行2018年开训动员大会 习近平向全军发布训令",
+                     @"desc":@"央视网消息（新闻联播）：新年伊始，万象更新，全军上下厉兵秣马，练兵正当时。3日上午，中央军委隆重举行2018年开训动员大会，中共中央总书记、国家主席、中央军委主席习近平向全军发布训令，号召全军贯彻落实党的十九大精神和新时代党的强军思想，全面加强实战化军事训练，全面提高打赢能力。",
+                     @"type":@"text"
+                     }
                  ]}
                  completion:^(NSError *error) {
                      if (error) {
