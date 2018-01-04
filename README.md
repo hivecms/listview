@@ -128,7 +128,7 @@ pod install
 }
 
 ```
-![](http://7b1gcw.com1.z0.glb.clouddn.com/listview3.png?1)
+![](screenshot.png)
 
 
 # Ref
